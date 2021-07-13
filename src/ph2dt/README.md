@@ -5,6 +5,6 @@ Pada bagian ini sudah ada contoh input file :
  Agar dpat dijalankan, nama file input tersebut harus dimasukan kedalama 'control file' ph2dt.inp
  
  ### untuk running program ph2dt
- ''' 
+ """ 
   ./ph2dt ph2dt.inp
-  
+ """
