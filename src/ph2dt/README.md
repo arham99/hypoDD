@@ -6,7 +6,5 @@ Pada bagian ini sudah ada contoh input file :
  
  ### untuk running program ph2dt
  ''' 
- ./ph2dt ph2dt.inp
- 
- '''
- 
+  ./ph2dt ph2dt.inp
+  
