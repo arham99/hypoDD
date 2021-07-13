@@ -8,7 +8,9 @@ Pada bagian ini sudah ada contoh input file :
  dokumentasi tersebut juga dimuat dalam file doc
  
  ### untuk running program ph2dt
+ open terminal ==> masuk ke direktori ph2dt ==> run
 ```
- ./ph2dt ph2dt.inp
+cd src/ph2dt
+./ph2dt ph2dt.inp
 
 ```
