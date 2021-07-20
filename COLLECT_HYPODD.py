@@ -11,7 +11,7 @@ Code untuk mengambil analisis statistik hasil NonLinLoc
 """
 import pandas as pd;import numpy as np;
 from collections import defaultdict as dfdict
-import glob
+import glob; import os
 uniq_ID=input("Masukan ID gempa :")
 file_name=glob.glob('*.loc.hyp')
 file_name_skip_sum=[]
@@ -89,3 +89,4 @@ for f in glob.glob(path):
     cdf = pd.concat(df.values(),ignore_index=True)
     all_data = all_data.append(cdf,ignore_index=True)
 all_data.to_excel(dir_simpan+'.xlsx')
+os.remove("Coleccting_statistic.xlsx")
